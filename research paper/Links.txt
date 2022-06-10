@@ -1,0 +1,6 @@
+https://booking.ai/https-booking-ai-machine-learning-production-3ee8fe943c70
+https://eng.lyft.com/lyftlearn-ml-model-training-infrastructure-built-on-kubernetes-aef8218842bb
+https://shopify.engineering/building-business-machine-learning-models
+https://developers.google.com/machine-learning/guides/rules-of-ml
+https://netflixtechblog.com/unbundling-data-science-workflows-with-metaflow-and-aws-step-functions-d454780c6280
+https://eng.uber.com/tuning-model-performance/
