@@ -1,0 +1,25 @@
+Machine Learning in production: the Booking.com approach
+requirements
+1. consistency
+2. high availability
+3. low latency
+4. observability- We need tools to make sure we can observe our models to react appropriately and promptly.
+5. reusability
+
+Fantastic four
+1. lookup tables- Most of our models map an input vector to a prediction (or set of predictions in the case of recommender systems). A very simple way to deploy a model in production is to precompute all the predictions for all the possible inputs and store them in a key-value store.
+2. Generalized linear models- didn't get
+3. Native libraries
+4. Scripted models- A scripted model is simply a script with a predefined interface that is invoked for every request.
+
+
+Supporting Machine Learning at scale involves many challenges, not least of which is shipping the models to production reliably, as fast as possible and accommodating a large variety of model types, invocation settings, libraries, data sources, monitoring approaches, etc.
+The process of taking a working machine-learned model and integrating it with the relevant system, making it available to our customers, is what we call productionization. 
+Upgrading a model, scaling it to a wider audience, maintaining the hosts where it runs, testing new tools, etc. must not interfere with the availability of the model in production. 
+
+
+5 Steps for Building Machine Learning Models for Business
+
+Below, we’ll share five steps and supporting tips on approaching machine learning from a business perspective. We’ve used these steps and tips at Shopify to help build and scale our suite of machine learning products.
+
+Data is what makes or breaks any machine learning model, and having a solid strategy for data collection will serve the team and product for years to come.
